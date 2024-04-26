@@ -1,25 +1,25 @@
 import { useState } from 'react'
 import './App.css'
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
+import React from 'react'
+import PaquetesPage from './pages/PaquetesPage'
+import MainLayout from './layouts/MainLayout'
+import PaquetePage, {paqueteLoader} from './pages/PaquetePage'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+const App = () => {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/' element={<MainLayout />}>
+        <Route index element={<PaquetesPage />} />
+        <Route path='/paquetes/:id' element={<PaquetePage />} loader={paqueteLoader}/>
+        <Route path='/sobre-nosotros' element={<PaquetesPage />} />
+        <Route path='/carrito-compras' element={<PaquetesPage />} />
+        <Route path='/perfil' element={<PaquetesPage />} />
+      </Route>
+    )
   )
+
+  return <RouterProvider router={router} />
 }
 
 export default App
