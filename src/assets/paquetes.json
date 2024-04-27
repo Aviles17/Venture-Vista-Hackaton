@@ -1,0 +1,154 @@
+[
+    {
+      "id": 1,
+      "nombreLugarTuristico": "Ciudad Perdida, Colombia",
+      "descripcionLugar": "Ciudad Perdida, también conocida como Teyuna, es un antiguo poblado Tayrona ubicado en la Sierra Nevada de Santa Marta, Colombia. Es uno de los destinos turísticos más populares del país y un lugar de gran importancia cultural y arqueológica.",
+      "actividadesPorHacer": [
+        "Caminar por el Camino de la Ciudad Perdida",
+        "Visitar las ruinas de la Ciudad Perdida",
+        "Observar la flora y fauna de la Sierra Nevada de Santa Marta",
+        "Conocer la cultura Tayrona",
+        "Bañarse en las cascadas de la región"
+      ],
+      "precio": "Entrada: COP 190.000 (adultos); COP 95.000 (niños)",
+      "calificacion": 2.3,
+      "dias": "4-5 días",
+      "comentarios": [
+        {
+          "usuario": "Carlos Martinez",
+          "comentario": "¡Ciudad Perdida es un lugar impresionante! La caminata es dura, pero la recompensa vale la pena."
+        },
+        {
+          "usuario": "Sofia Ramirez",
+          "comentario": "Es una experiencia única caminar por el Camino de la Ciudad Perdida y conocer la cultura Tayrona."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombreLugarTuristico": "Parque Nacional Natural Tayrona, Colombia",
+      "descripcionLugar": "El Parque Nacional Natural Tayrona es un parque nacional ubicado en la costa caribeña de Colombia. Es conocido por sus hermosas playas, selvas tropicales y sitios arqueológicos.",
+      "actividadesPorHacer": [
+        "Relajarse en las playas",
+        "Hacer senderismo por la selva tropical",
+        "Visitar sitios arqueológicos Tayrona",
+        "Practicar deportes acuáticos",
+        "Observar la flora y fauna del parque"
+      ],
+      "precio": "Entrada: COP 42.000 (adultos); COP 21.000 (niños)",
+      "calificacion": 4.8,
+      "dias": "2-3 días",
+      "comentarios": [
+        {
+          "usuario": "David Sanchez",
+          "comentario": "El Parque Nacional Natural Tayrona es un paraíso terrenal. Las playas son hermosas y la selva tropical está llena de vida."
+        },
+        {
+          "usuario": "Isabel Castro",
+          "comentario": "Me encantó hacer senderismo por la selva tropical y visitar los sitios arqueológicos Tayrona."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombreLugarTuristico": "Caño Cristales, Colombia",
+      "descripcionLugar": "Caño Cristales, también conocido como el \"Río de los Cinco Colores\", es un río ubicado en la Sierra de la Macarena, Colombia. Es conocido por sus aguas cristalinas de colores vibrantes.",
+      "actividadesPorHacer": [
+        "Nadar en las aguas del Caño Cristales",
+        "Hacer senderismo por la Sierra de la Macarena",
+        "Visitar la cascada La Cachorra",
+        "Observar la flora y fauna de la región",
+        "Aprender sobre la formación geológica del Caño Cristales"
+      ],
+      "precio": "Entrada: COP 33.000 (adultos); COP 16.500 (niños)",
+      "calificacion": 4.9,
+      "dias": "2-3 días",
+      "comentarios": [
+        {
+          "usuario": "Fabian Lopez",
+          "comentario": "Caño Cristales es un lugar mágico. Las aguas son de un color increíble y el paisaje es impresionante."
+        },
+        {
+          "usuario": "Andrea Morales",
+          "comentario": "Me encantó nadar en las aguas del Caño Cristales y hacer senderismo por la Sierra de la Macarena."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombreLugarTuristico": "Parque Nacional Volcán Arenal, Costa Rica",
+      "descripcionLugar": "El Parque Nacional Volcán Arenal es un parque nacional ubicado en la zona norte de Costa Rica. Es conocido por su volcán activo, el Volcán Arenal, y por sus paisajes de gran belleza.",
+      "actividadesPorHacer": [
+        "Observar el Volcán Arenal",
+        "Hacer senderismo por los alrededores del volcán",
+        "Visitar las aguas termales",
+        "Practicar deportes de aventura",
+        "Observar la flora y fauna del lugar"
+    ],
+    "precio": "Entrada: $15 (adultos); $8 (niños)",
+    "calificacion": 4.7,
+    "dias": "2-3 días",
+    "comentarios": [
+      {
+        "usuario": "Jose Rodriguez",
+        "comentario": "¡El Parque Nacional Volcán Arenal es un lugar increíble! El volcán es impresionante y hay muchas actividades para hacer."
+      },
+      {
+        "usuario": "Valentina Gomez",
+        "comentario": "Me encantó visitar las aguas termales y hacer senderismo por los alrededores del volcán."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombreLugarTuristico": "Reserva Biológica Bosque Nuboso Monteverde, Costa Rica",
+    "descripcionLugar": "La Reserva Biológica Bosque Nuboso Monteverde es una reserva biológica ubicada en la Cordillera de Tilarán, Costa Rica. Es conocida por su rica biodiversidad y por sus impresionantes bosques nubosos.",
+    "actividadesPorHacer": [
+      "Hacer senderismo por los senderos de la reserva",
+      "Observar la flora y fauna del bosque nuboso",
+      "Visitar el Mariposario Monteverde",
+      "Aprender sobre la conservación del bosque nuboso",
+      "Practicar turismo rural"
+    ],
+    "precio": "Entrada: $20 (adultos); $10 (niños)",
+    "calificacion": 4.9,
+    "dias": "2-3 días",
+    "comentarios": [
+      {
+        "usuario": "Daniel Vargas",
+        "comentario": "La Reserva Biológica Bosque Nuboso Monteverde es un lugar mágico. La biodiversidad es increíble y los bosques nubosos son impresionantes."
+      },
+      {
+        "usuario": "Carolina Ortiz",
+        "comentario": "Me encantó hacer senderismo por los senderos de la reserva y observar la flora y fauna del bosque nuboso."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombreLugarTuristico": "Parque Nacional Manuel Antonio, Costa Rica",
+    "descripcionLugar": "El Parque Nacional Manuel Antonio es un parque nacional ubicado en la costa central del Pacífico de Costa Rica. Es conocido por sus hermosas playas, su bosque tropical y su rica biodiversidad.",
+    "actividadesPorHacer": [
+      "Relajarse en las playas",
+      "Hacer senderismo por los senderos del parque",
+      "Observar la flora y fauna del bosque tropical",
+      "Practicar deportes acuáticos",
+      "Visitar el Centro de Investigación de Manuel Antonio"
+    ],
+    "precio": "Entrada: $16 (adultos); $8 (niños)",
+    "calificacion": 4.8,
+    "dias": "1-2 días",
+    "comentarios": [
+      {
+        "usuario": "Alejandro Perez",
+        "comentario": "El Parque Nacional Manuel Antonio es un paraíso terrenal. Las playas son hermosas y el bosque tropical está lleno de vida."
+      },
+      {
+        "usuario": "Gabriela Moreno",
+        "comentario": "Me encantó hacer senderismo por los senderos del parque y observar la flora y fauna del bosque tropical."
+      }
+    ]
+  }
+]
+
+  
