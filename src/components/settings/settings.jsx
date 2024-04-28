@@ -2,12 +2,13 @@ import React from "react";
 import "./settings.scss"
 import ChosseImg from "../../assets/images/uploadPhoto.png"
 import "../../assets/images/settingsBg.png"
+import { NavLink } from "react-router-dom";
 
 import { useState } from "react";
 
 export default function Settings( {name: prop_name, email: prop_email, password: prop_password, selectedFile: prop_selectedFile}){
-    const [name, setName] = useState(prop_name || "NombrePorDefecto");
-    const [email, setEmail] = useState(prop_email || "EmailPorDefecto");
+    const [name, setName] = useState(prop_name || "John Doe");
+    const [email, setEmail] = useState(prop_email || "johndoe@gmail.com");
     const [password, setPassword] = useState(prop_password || "PasswordPorDefecto");
     const [selectedFile, setSelectedFile] = useState(prop_selectedFile || null);
     const [error, setError] = useState("");
@@ -78,9 +79,9 @@ export default function Settings( {name: prop_name, email: prop_email, password:
                 onChange={(e) => setPassword(e.target.value)}
               />
               <button className="UploadRectangle" type="submit">
-                Upload
+                Guardar
               </button>
-              <button className="ChangeAcountRectangle">Cambiar de cuenta</button>
+              <NavLink to='/login' className="ChangeAcountRectangle">Cambiar de cuenta</NavLink>
             </form>
           </div>
         </div>

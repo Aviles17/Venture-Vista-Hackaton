@@ -48,26 +48,32 @@
 
     .form {
       display: flex;
-      justify-content: center;
       align-items: center;
-        flex-direction: column;
+      flex-direction: column;
       margin: 31px 33px;
+      position: absolute;
+      top: 0;
+      right: 33px;
+
 
       .NameRectangleC,
       .EmailRectangleC,
       .PasswordRectangleC {
+        padding: 15px 0 15px 15px;
         flex-direction: column;
         width: 256px;
         height: 39px;
         background: #EAF0F7;
+        top: 0;
+        right: 20px;
         border: none;
         border-radius: 10px;
         display: flex;
         align-items: center;
-        padding-left: 105px;
+        margin-bottom: 25px;
         outline: none;
         font-family: 'Inter', sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         color: #4F555A;
 
         &::placeholder {
@@ -81,24 +87,11 @@
           box-shadow: 0px 0px 15px 5px rgba(68, 97, 242, 0.6);
           transition: box-shadow 0.4s ease-in-out;
         }
-        &.NameRectangleC{
-          top: 57px;
-          left: 89px;
-        }
-        &.EmailRectangleC{
-          top: 111px;
-          left: 89px;
-        }
-        &.PasswordRectangleC{
-          top: 168px;
-          left: 89px;
-        }
       }
 
       .UploadRectangle,
       .ChangeAcountRectangle {
         border: none;
-        position: absolute;
         width: 170px;
         height: 37px;
         background: #4461F2;
@@ -106,6 +99,7 @@
         border-radius: 10px;
         display: flex;
         justify-content: center;
+        position: absolute;
         align-items: center;
         color: white;
         font-family: 'Manrope', sans-serif;
@@ -120,15 +114,15 @@
 
         &.ChangeAcountRectangle {
           width: 190px;
-          left: 405px;
+          left: 70px;
           background: #37E449;
           font-size: 18px;
-          top: 238px;
+          top: 210px;
           right: -37px;
         }
         &.UploadRectangle{
-          top: 238px;
-          left: 134px;
+          top: 210px;
+          left: -200px;
         }
       }
 
