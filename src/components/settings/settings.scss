@@ -13,8 +13,8 @@
     border-radius: 11px;
     height: 317px;
     width: 561px;
-    top: calc(50% - 190px);
-    left: calc(50% - 500px);
+    top: calc(50% - 100px);
+    left: calc(50% - 300px);
     margin: auto;
 
     .config_img {
@@ -50,6 +50,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+        flex-direction: column;
       margin: 31px 33px;
 
       .NameRectangleC,
