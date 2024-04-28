@@ -44,24 +44,8 @@ export default function Resgister(){
               placeholder="Password"
               onChange={(e) => setPassword(e.target.value)}
             />
-            <div className="RecoverGoogleBox">
-            <a href="https://www.google.com">
-              <img
-                src= {Google}
-                className="RecoverGoogleImage"
-              />
-            </a>
-            </div>
-            <div className="RecoverFacebookBox">
-            <a href="https://www.google.com">
-              <img
-                src= {Facebook}
-                className="RecoverFacebookImage"
-              />
-            </a>
-            </div>
 
-            <button type="submit" className="RegisterRectangle">Register</button>
+            <button type="submit" className="RegisterRectangle">Registrarse</button>
           </form>
           {showError && (
             <div className="ErrorMessage" onClick={() => setShowError(false)}>

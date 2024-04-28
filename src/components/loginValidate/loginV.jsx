@@ -42,22 +42,6 @@ export default function Login() {
               Recover Password
             </a>
           </p>
-          <div className="RecoverGoogleBox">
-          <a href="https://www.google.com">
-            <img
-              src={Google}
-              className="RecoverGoogleImage"
-            />
-            </a>
-          </div>
-          <div className="RecoverFacebookBox">
-          <a href="https://www.google.com">
-            <img
-              src={Facebook}
-              className="RecoverFacebookImage"
-            />
-            </a>
-          </div>
           <button type="submit" className="LoginRectangle">Login</button>
         </form>
         {showError && (

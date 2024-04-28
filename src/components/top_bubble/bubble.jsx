@@ -1,13 +1,17 @@
 import React from "react";
 import "./bubble.scss";
 import Logo from "../../assets/icons/logo.svg"
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function bubble() {
+
     return(
         <div className="container-all">
         <div>
-        <img src={Logo} alt="Logo" className="logo-image" />
+          <NavLink to="/" className="logo_link">
+            <img src={Logo} alt="Logo" className="logo-image" />
+          </NavLink>
+
           </div>
         <div className="container-login-signup">
           <header>
@@ -15,11 +19,11 @@ export default function bubble() {
               <ul className="nav-list">
                 <li className="nav-list1">
                   <div className="link-container-register">
-                    <Link to="/login" className="login" >Login</Link>
-                    <Link to="/registro" className="register">Register</Link>
+                    <NavLink to="/login" className="login" style={({ isActive }) => isActive ? {textDecoration:"underline"} : {}} >Login</NavLink>
+                    <NavLink to="/signup" className="register" style={({ isActive }) => isActive ? {textDecoration:"underline"} : {}}>Register</NavLink>
                   </div>
                   <div className="link-container-others">
-                    <Link to= "/sobre-nosotros" className="AboutUs">Sobre Nosotros</Link>
+                    <NavLink to= "/sobre-nosotros" className="AboutUs">Sobre Nosotros</NavLink>
                   </div>
                 </li>
               </ul>

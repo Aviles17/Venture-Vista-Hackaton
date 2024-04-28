@@ -28,7 +28,7 @@ const Foot = () => {
     const year = new Date().getFullYear();
 
     return (
-        <div className="app flex items-end justify-center font-poppins">
+        <div className="app flex items-end justify-center font-poppins footer">
         <div className="py-16 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 bg-blue-900 text-white w-full p-4 relative">
             <div className="  ">
             <div className="footer-img flex items-center">
