@@ -31,7 +31,7 @@ const Navbar = () => {
                 <NavLink className={linkClass} to='/carrito-compras'>
                   <img className='h-10 w-auto' src={cart} alt='Cart' />
                 </NavLink>
-                <NavLink className={linkClass} to='/perfil'>
+                <NavLink className={linkClass} to='/settings'>
                   <img className='h-10 w-auto' src={profile} alt='Profile' />
                 </NavLink>
               </div>

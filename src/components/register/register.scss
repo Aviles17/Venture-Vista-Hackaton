@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.SignupFrame {
+  position: absolute;
+  width: 430px;
+  height: 437px;
+  background: #FFFFFF;
+  border-radius: 11px;
+  top: calc(50% - 219px);
+  left: calc(50% - 215px);
+
+  .form2 {
+    position: absolute;
+    top: 10px;
+  }
+
+  .RegisterRectangle {
+    position: absolute;
+    width: 170px;
+    height: 37px;
+    background: #4461F2;
+    box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
+    border-radius: 10px;
+    top: 238px;
+    left: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0px 0px 15px 5px rgba(68, 97, 242, 0.6);
+    }
+  }
+
+  .NameRectangleS,
+  .EmailRectangleS,
+  .PasswordRectangleS {
+    position: absolute;
+    width: 256px;
+    height: 39px;
+    background: #EAF0F7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    outline: none;
+    color: #4F555A;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    border: none;
+
+    &::placeholder {
+      color: #8C959A;
+      font-size: 14px;
+    }
+
+    &:hover,
+    &:focus {
+      box-shadow: 0px 0px 15px 5px rgba(68, 97, 242, 0.6);
+      transition: box-shadow 0.4s ease-in-out;
+    }
+    &.NameRectangleS{
+      top: 57px;
+      left: 89px;
+    }
+    &.EmailRectangleS{
+      top: 111px;
+      left: 89px;
+    }
+    &.PasswordRectangleS{
+      top: 168px;
+      left: 89px;
+    }
+  }
+
+
+  .RecoverGoogleBox,
+  .RecoverFacebookBox {
+    position: absolute;
+    width: 89.28px;
+    height: 47.43px;
+    background: #FFFFFF;
+    border-radius: 13px;
+    top: 337px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .RecoverGoogleImage,
+    .RecoverFacebookImage {
+      width: 22px;
+      height: 23px;
+      object-fit: contain;
+      border-radius: 100px;
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 15px 5px rgba(68, 97, 242, 0.6);
+      transition: box-shadow 0.4s ease-in-out;
+    }
+    &.RecoverFacebookBox {
+      left: 260px;
+    }
+    &.RecoverGoogleBox{
+      left: 83px;
+    }
+  }
+
+  .ContinueLine2 {
+    position: absolute;
+    width: 60%;
+    top: 308px;
+    left: 90px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+
+    &::before,
+    &::after {
+      content: "";
+      flex-grow: 1;
+      height: 1px;
+      background-color: #C7C7C7;
+    }
+
+    .ContinueText2 {
+      padding: 0 10px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.1em;
+      color: #C7C7C7;
+    }
+  }
+  .ErrorMessage {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
